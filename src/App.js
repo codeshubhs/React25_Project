@@ -1,5 +1,7 @@
 //import Accordian from './components/Accordian';
 import './App.css';
+import LoadMoreData from './components/LoadMore_button';
+import QrCodeGenerator from './components/QR_code_generate';
 //import RandomColor from './components/Random-color';
 import ImageSlider from './components/image-slider';
 import SliderData from './components/image-slider/SliderData';
@@ -12,9 +14,13 @@ function App() {
 
     {/* Random Color generator */}
     {/*<RandomColor/>*/}
-    <h1 style={{fontFamily:'cursive'}}>Image Slider</h1>
+   {/* <h1 style={{fontFamily:'cursive'}}>Image Slider</h1>
     <ImageSlider slides={SliderData}/>
-    </div>
+  </div>*/}
+
+  {/*<LoadMoreData/>*/}
+  <QrCodeGenerator/>
+  </div>
   );
 }
 
