@@ -1,5 +1,6 @@
 //import Accordian from './components/Accordian';
 import './App.css';
+import LightDarkMode from './components/Light_Dark_Mode';
 import LoadMoreData from './components/LoadMore_button';
 import QrCodeGenerator from './components/QR_code_generate';
 //import RandomColor from './components/Random-color';
@@ -19,7 +20,9 @@ function App() {
   </div>*/}
 
   {/*<LoadMoreData/>*/}
-  <QrCodeGenerator/>
+ {/*<QrCodeGenerator/>*/} 
+
+ <LightDarkMode/>
   </div>
   );
 }
