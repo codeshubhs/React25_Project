@@ -7,7 +7,7 @@ import QrCodeGenerator from './components/QR_code_generate';
 import ImageSlider from './components/image-slider';
 import SliderData from './components/image-slider/SliderData';
 
-
+import GithubProfileFinder from './components/github-profile-finder';
 function App() {
   return (
     <div className="App">
@@ -22,7 +22,8 @@ function App() {
   {/*<LoadMoreData/>*/}
  {/*<QrCodeGenerator/>*/} 
 
- <LightDarkMode/>
+ {/*<LightDarkMode/> */}
+ <GithubProfileFinder/>
   </div>
   );
 }
