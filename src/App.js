@@ -8,6 +8,7 @@ import ImageSlider from './components/image-slider';
 import SliderData from './components/image-slider/SliderData';
 
 import GithubProfileFinder from './components/github-profile-finder';
+import UseFetchHookTest from './components/use-fetch/UseFetchHookTest';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,9 @@ function App() {
  {/*<QrCodeGenerator/>*/} 
 
  {/*<LightDarkMode/> */}
- <GithubProfileFinder/>
+
+ {/* <GithubProfileFinder/>*/}
+ <UseFetchHookTest/>
   </div>
   );
 }
